@@ -3324,7 +3324,7 @@ class Carbon extends DateTime
      *
      * @return static
      */
-    public function modify($modify)
+    public function modify_($modify)
     {
         // If we changing time in some timezone with daylight correction, there can be the case, that this correction
         // influence to time in nonwanted way. So we have to make this modification in UTC timezone.
